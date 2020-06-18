@@ -26,6 +26,7 @@ class EventEmitter {
         });
     }
 
+    // 只订阅一次
     once(type, fn) {
         if (!this.event[type]) this.event[type] = [];
         function _fn() {
