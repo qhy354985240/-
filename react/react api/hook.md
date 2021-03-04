@@ -192,3 +192,5 @@ const Hook =()=>{
         setText(e.target.value)
    },[])
 ```
+
+6. useReducer
